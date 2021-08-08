@@ -21,6 +21,10 @@ import PageNotFound from "./pages/PageNotFound";
 import { UserContext } from "./context/UserContext";
 import Footer from "./layout/Footer";
 import Header from "./layout/Header";
+import FirebaseConfig from "./config/FirebaseConfig";
+
+// init firebase
+firebase.initializeApp(FirebaseConfig);
 
 // App
 const App = () => {

@@ -12,7 +12,7 @@ const UserCard = ({ user }) => {
         <div className="text-info">
           Available for hire: {user.hireable ? "Yes" : "No"}
         </div>
-        <div className="text-info">{user.followers}</div>
+        <div className="text-info">Followers: {user.followers}</div>
       </CardBody>
     </Card>
   );

@@ -92,7 +92,7 @@ const Signup = () => {
               </CardBody>
               <CardFooter>
                 <Button type="submit" block color="primary">
-                  Sign In
+                  Sign Up
                 </Button>
               </CardFooter>
             </Form>
